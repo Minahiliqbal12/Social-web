@@ -1,92 +1,150 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #d4d4d4;
-    padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d4d4d4;
+  padding: 10px 40px;
 }
 
 header .logo {
-    width: 50px;
-    border-radius: 50%;
+  width: 50px;
+  border-radius: 50%;
 }
 
 header nav a {
-    margin-left: 25px;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-    font-weight: bold;
+  margin-left: 25px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-
 .banner {
-    text-align: center;
-    padding: 40px 20px;
+  text-align: center;
+  padding: 40px 20px;
 }
 
 .banner-img {
-    width: 70%;
-    max-width: 500px;
-    border-radius: 10px;
+  width: 70%;
+  max-width: 500px;
+  border-radius: 10px;
 }
 
 .banner h1 {
-    font-size: 40px;
-    margin-top: 20px;
+  font-size: 40px;
+  margin-top: 20px;
 }
 
 .banner p {
-    font-size: 18px;
-    color: #333;
+  font-size: 18px;
+  color: #333;
 }
 
-
 .content {
-    padding: 20px 40px;
+  padding: 20px 40px;
 }
 
 .content h2 {
-    font-size: 28px;
-    margin-bottom: 10px;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 
 .content ul {
-    list-style: circle;
-    font-size: 18px;
+  list-style: circle;
+  font-size: 18px;
 }
+.form-container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Form heading */
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+.box-gender, .box-hobby {
+    margin-bottom: 15px;
+}
+
+.box-gender input,
+.box-hobby input {
+    margin-right: 10px;
+}
+
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color:brown;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: brown;
+}
+
 ul {
   list-style-type: 1;
   text-align: left;
-   display: inline-block;
-  
+  display: inline-block;
 }
 
 dl {
-  
   text-align: left;
   display: inline-block;
   margin-top: 20px;
 }
- 
-@media (max-width: 600px) {
-    .banner-img {
-        width: 100%;
-    }
-
-    header {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
 footer {
-  background-color:grey;
+  background-color: grey;
   text-align: left;
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 100px;
 }
+
+@media (max-width: 600px) {
+  .banner-img {
+    width: 100%;
+  }
+
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
