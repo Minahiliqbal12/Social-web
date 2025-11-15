@@ -24,7 +24,7 @@ header nav a {
     font-weight: bold;
 }
 
-/* BANNER */
+
 .banner {
     text-align: center;
     padding: 40px 20px;
@@ -46,7 +46,7 @@ header nav a {
     color: #333;
 }
 
-/* CONTENT */
+
 .content {
     padding: 20px 40px;
 }
@@ -83,4 +83,10 @@ dl {
         flex-direction: column;
         gap: 10px;
     }
+}
+footer {
+  background-color:grey;
+  text-align: left;
+  padding: 10px;
+  margin-top: 30px;
 }
